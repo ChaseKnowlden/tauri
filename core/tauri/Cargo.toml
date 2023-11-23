@@ -10,7 +10,7 @@ license = "Apache-2.0 OR MIT"
 name = "tauri"
 readme = "README.md"
 repository = "https://github.com/tauri-apps/tauri"
-version = "1.5.2"
+version = "1.5.3"
 
 [package.metadata.docs.rs]
 no-default-features = true
@@ -35,7 +35,7 @@ features = [
   "process-exit",
   "protocol-asset",
   "process-command-api",
-  "shell-open",
+  "shell-open"
 ]
 rustdoc-args = [ "--cfg", "doc_cfg" ]
 default-target = "x86_64-unknown-linux-gnu"

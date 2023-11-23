@@ -1,5 +1,16 @@
 # Changelog
 
+## \[1.5.3]
+
+### Enhancements
+
+- [`b3e53e72`](https://www.github.com/tauri-apps/tauri/commit/b3e53e7243311a2659b7569dddc20c56ac9f9d8e)([#8288](https://www.github.com/tauri-apps/tauri/pull/8288)) Added `AssetResolver::iter` to iterate on all embedded assets.
+
+### Bug Fixes
+
+- [`2ba88563`](https://www.github.com/tauri-apps/tauri/commit/2ba8856343e284ed022f28cff6d16db15ad4645f)([#8095](https://www.github.com/tauri-apps/tauri/pull/8095)) Fix docs.rs build for `x86_64-apple-darwin`.
+- [`4b6a602a`](https://www.github.com/tauri-apps/tauri/commit/4b6a602a89b36f24d34d6ccd8e3c9b7ce202c9eb)([#8234](https://www.github.com/tauri-apps/tauri/pull/8234)) Escape path of the updater msi to avoid crashing on installers with spaces.
+
 ## \[1.5.2]
 
 ### Bug Fixes
